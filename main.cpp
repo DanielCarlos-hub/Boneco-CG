@@ -2,6 +2,7 @@
 GRUPO:
 Daniel Carlos Soares
 Marcos Oliveira
+Rhalf Oliveira
 */
 
 
@@ -570,7 +571,7 @@ int main(void)
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowPosition(10,10);
 	glutInitWindowSize(1366,768);
-	glutCreateWindow("Trabalho Prático: Movimentos de Braços, Pernas, AnteBraços e Coxas / GRUPO: Daniel Carlos e Marcos Oliveira");
+	glutCreateWindow("Trabalho Prático: Movimentos de Braços, Pernas, AnteBraços e Coxas / GRUPO: Daniel Carlos e Marcos Oliveira, Rhalf Oliveira");
 
 	// Registra a função callback de redesenho da janela de visualização
 	glutDisplayFunc(Desenha);
